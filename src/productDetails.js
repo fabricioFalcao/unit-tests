@@ -27,19 +27,6 @@
   Escreva pelo menos cinco testes para essa função no arquivo tests/productDetails.js para garantir que a implementação de productDetails está correta.
 */
 
-const productDetails = (firstProduct, secondProduct) => [
-  {
-    name: firstProduct,
-    details: {
-      productId: `${firstProduct}123`,
-    },
-  },
-  {
-    name: secondProduct,
-    details: {
-      productId: `${secondProduct}123`,
-    },
-  },
-];
+const productDetails = (firstProduct, secondProduct) => [{key: 'value'}, {key2: 'value2'}];
 
 module.exports = productDetails;
