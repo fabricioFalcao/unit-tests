@@ -28,17 +28,4 @@ const createMenu = (object) => {
   };
 };
 
-const objetoRetornadoCreateMenu = createMenu(
-  {
-    food: { coxinha: 3.90, sanduiche: 9.90 },
-    drinks: { agua: 3.90, cerveja: 6.90 },
-  });
-objetoRetornadoCreateMenu.order('coxinha')
-objetoRetornadoCreateMenu.order('sanduiche')
-objetoRetornadoCreateMenu.order('agua')
-
-console.log(objetoRetornadoCreateMenu.fetchMenu());
-console.log(objetoRetornadoCreateMenu.consumption);
-console.log(objetoRetornadoCreateMenu.pay());
-
 module.exports = createMenu;
